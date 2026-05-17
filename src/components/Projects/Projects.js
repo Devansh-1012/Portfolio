@@ -104,6 +104,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Population}
+              isBlog={false}
+              title="World Population Analysis"
+              description="Data analysis project using Python to analyze population data from the global level over 2024 in urban and rural areas. Uses various Pandas, Seaborn, Plotly, Folium, and Scikit-learn machine learning models to explore access to infrastructure (electricity, clean water, healthcare, and education) and economic indicators (GDP, unemployment, etc.)."
+              ghLink="https://github.com/Devansh-1012/World-Population-Analysis"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={Todolist}
               isBlog={false}
               title="Taskflow"
